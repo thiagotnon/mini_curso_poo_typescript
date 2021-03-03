@@ -1,9 +1,10 @@
 export default class Funcionario {
     nome: string;
-    comissao: number 
+    comissao: number;
 
-    constructor(n: string){
+    constructor(n: string, c: number){
         this.nome = n;
+        this.comissao = c;
     }
 
     public getNome(){

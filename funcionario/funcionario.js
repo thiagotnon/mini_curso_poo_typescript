@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Funcionario = /** @class */ (function () {
-    function Funcionario(n) {
+    function Funcionario(n, c) {
         this.nome = n;
+        this.comissao = c;
     }
     Funcionario.prototype.getNome = function () {
         return this.nome;

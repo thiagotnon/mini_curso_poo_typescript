@@ -1,6 +1,6 @@
-import Cliente from "./cliente"
-import Funcionario from "./funcionario"
-import Carro from "./carro"
+import Cliente from "../cliente/cliente"
+import Funcionario from "../funcionario/funcionario"
+import Carro from "../carro/carro"
 
 
 export default class CompraCarro {
